@@ -1,0 +1,13 @@
+Package: ggEnrich
+Type: Package
+Title: draw the enrichment plot using GSEA analysis results
+Version: 0.1.0
+Author: "Zhangtianxin",email="sxdtztx@126.com"
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Draw the enrichment plot using GSEA analysis results
+    It contains a simple function "mergefile".
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports:
+RoxygenNote: 6.1.1

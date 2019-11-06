@@ -4,12 +4,17 @@
 \alias{enrichplot}
 \title{enrichplot function is used to draw the enrichment plot.}
 \usage{
-enrichplot(file, type)
+enrichplot(file, type, mycolor = c("red", "navy", "darkgreen",
+  "blueviolet", "chocolate4", "black"), plot_legend = "right")
 }
 \arguments{
 \item{file}{pathway file, the format is xls}
 
 \item{type}{the type of plot, dot,line,barcode}
+
+\item{mycolor}{the type of plot, dot,line,barcode}
+
+\item{plot_legend}{location of the legend,left,right}
 }
 \value{
 a plot, the format is pdf
@@ -18,7 +23,9 @@ a plot, the format is pdf
 enrichplot function is used to draw the enrichment plot.
 }
 \examples{
-path="D:\\\\code\\\\r\\\\FigureYa13GSEA_Java_update"
+path <- "D:\\\\code\\\\r\\\\FigureYa13GSEA_Java_update"
 file <- mergefile(path)
 enrichplot <-enrichplot(file,type="dot")
+enrichplot <-enrichplot(file,type="line",plot_legend="left")
+enrichplot <-enrichplot(file,type="barcode")
 }

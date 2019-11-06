@@ -2,3 +2,5 @@
 
 export(enrichplot)
 export(mergefile)
+importFrom(grDevices,dev.off)
+importFrom(utils,read.delim)

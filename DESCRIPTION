@@ -9,5 +9,5 @@ Description: Draw the enrichment plot using GSEA analysis results
 License: GPL
 Encoding: UTF-8
 LazyData: true
-Imports:
+Imports: plyr,ggplot2,RColorBrewer,gridExtra,grid,cowplot
 RoxygenNote: 6.1.1
